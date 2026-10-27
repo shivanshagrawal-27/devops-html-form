@@ -10,7 +10,7 @@ pipeline {
 
         stage('Test HTML Form') {
             steps {
-                bat 'python -m unittest -v test_form.py'
+                bat '"C:\\Users\\shiva\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m unittest -v test_form.py'
             }
         }
     }
